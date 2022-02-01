@@ -1,0 +1,13 @@
+					<!-- Prev/Next -->
+					<div class="row flex-row PageNavigation mt-4 prevnextlinks">
+						<div class="col-md-6 rightborder pl-0">
+{% if paginator.total_pages > 1 %}
+{% if paginator.previous_page %}
+							<a class="thepostlink" href="{{ paginator.previous_page_path | prepend: site.url }}">« Previous</a>{% endif %}
+						</div>
+						<div class="col-md-6 text-right pr-0">
+    {% if paginator.next_page %}
+							<a class="thepostlink" href="{{ paginator.next_page_path | prepend: site.url }}">Next »</a>{% endif %} {% endif %}
+						</div>
+					</div>
+					<!-- End Prev/Next -->

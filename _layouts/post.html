@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+		<div class="main-content">
+			<!-- Begin Article
+            ================================================== -->
+			<div class="row">			
+				<!-- Post -->
+				<div class="col-sm-8">
+					<div class="mainheading">
+						<!-- Post Categories -->
+						<div class="after-post-tags">
+							<ul class="tags">
+								<li>
+								<a>{{page.tag}}</a>
+								</li>
+								<li>
+								<a>tutorial</a>
+								</li>
+							</ul>
+						</div>
+						<!-- End Categories -->
+						<!-- Post Title -->
+						<h1 class="posttitle">{{ page.title }}</h1>
+					</div>
+					<!-- Post Featured Image -->
+					<img class="featured-image img-fluid" src="{{ page.image }}" alt="">
+					<!-- End Featured Image -->
+					<!-- Post Content -->
+					<div class="article-post">
+						<p>
+    {{ content }}
+						</p>
+						<div class="clearfix">
+						</div>
+					</div>
+					<!-- Post Date -->
+					<p>
+						<small>
+						<span class="post-date"><time class="post-date" datetime="2018-01-12">{{ page.date | date: "%B %e, %Y" }}</time></span>
+						</small>
+					</p>
+					<!-- Prev/Next -->
+                {% include paginator.html %}
+					<!-- End Prev/Next -->
+					<!-- Author Box -->
+					<div class="row post-top-meta">
+						<div class="col-md-2">
+							<img class="author-thumb" src="{{site.avatar}}" alt="Sal">
+						</div>
+						<div class="col-md-10">
+							<a target="_blank" class="link-dark" href="#">{{page.author}}</a><a target="_blank" href="https://twitter.com/anonim1666" class="btn follow">Follow</a>
+							<span class="author-description">Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo.</span>
+						</div>
+					</div>
+				</div>
+				<!-- End Post -->
+
+  {% include sidebar.html %}
+                
+			</div>

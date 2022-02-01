@@ -1,0 +1,109 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="{{ site.baseurl }}/assets/js/masonry.pkgd.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+<script type='text/javascript'>
+//<![CDATA[
+$(function() {
+  if ($('#sidesticky').length) {
+    var el = $('#sidesticky');
+    var stickyTop = $('#sidesticky').offset().top;
+    var stickyHeight = $('#sidesticky').height();
+    $(window).scroll(function() {
+      var limit = $('#sticky-stop').offset().top - stickyHeight - 120;
+      var windowTop = $(window).scrollTop();
+      if (stickyTop < windowTop) {
+        el.css({
+          position: 'fixed',
+          top: 20
+        });
+      } else {
+        el.css('position', 'static');
+      }
+      if (limit < windowTop) {
+        var diff = limit - windowTop;
+        el.css({
+          top: diff
+        });
+      }
+    });
+  }
+});
+// Back to top button
+(function() {
+  $(document).ready(function() {
+    return $(window).scroll(function() {
+      return $(window).scrollTop() > 600 ? $("#back-to-top").addClass("show") : $("#back-to-top").removeClass("show")
+    }), $("#back-to-top").click(function() {
+      return $("html,body").animate({
+        scrollTop: "0"
+      })
+    })
+  })
+}).call(this);
+//]]>
+</script>
+
+<script>
+function setDarkMode(isDark) {
+        var darkBtn = document.getElementById('darkBtn')
+        var lightBtn = document.getElementById('lightBtn')
+
+        if(isDark) {
+            lightBtn.style.display = "block"
+            darkBtn.style.display = "none"
+        } else {
+            lightBtn.style.display = "none"
+            darkBtn.style.display = "block"
+        }
+
+        document.body.classList.toggle("darkmode");
+    }
+
+//check localstorage
+if(localStorage.getItem('preferredTheme') == 'dark') {
+    setDarkMode(true)
+}
+
+function setDarkMode(isDark) {
+    var darkBtn = document.getElementById('darkBtn')
+    var lightBtn = document.getElementById('lightBtn')
+
+    if(isDark) {
+        lightBtn.style.display = "block"
+        darkBtn.style.display = "none" 
+    //tambahan localstorage
+        localStorage.setItem('preferredTheme', 'dark');
+    } else {
+        lightBtn.style.display = "none"
+        darkBtn.style.display = "block"
+     //tambahan localstorage
+        localStorage.removeItem('preferredTheme');
+    }
+
+    document.body.classList.toggle("darkmode");
+}
+</script>
+
+
+
+<script type="text/javascript">
+var adfly_id = 14545295;
+var adfly_advert = 'int';
+var adfly_protocol = 'https';
+var adfly_domain = 'adf.ly';
+var domains = ['faucet.daffadev.my.id','rapidshare.com','vip-file.com'];
+var adfly_nofollow = true;
+var popunder = true;
+var adfly_google_compliant = true;
+</script>
+<script src="https://cdn.adf.ly/js/link-converter.js"></script>
+<script type="text/javascript">
+    var app_url = 'https://exe.io/';
+    var app_api_token = 'bca65c1bc42e0c21042ff52dc43195cc0c2c6a5f';
+    var app_advert = 2;
+    var app_domains = ["faucet.daffadev.my.id","*.zippyshare.com","depositfiles.com","mega.nz"];
+</script>
+<script src='//exe.io/js/full-page-script.js'></script>

@@ -1,0 +1,65 @@
+<head>
+    <meta charset="utf-8" />
+    <title>{% if page.title %}{{ site.name }} – {% endif %}{{ page.title }} {{ site.description }}</title>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    {% if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt| strip_html }}" />
+    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description }}" />
+    {% endif %}
+    <meta name="author" content="{{ site.name }}" />
+
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="twitter:title" content="{{ page.title }}" />
+    {% endif %}
+    <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
+      <!--Begin AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1171588080744378"
+         crossorigin="anonymous"></script>
+  <!--End AdSense -->
+<!-- Begin tracking codes here, including ShareThis/Analytics -->
+    {% if page.layout == "post" %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org/",
+        "@type": "BlogPosting",
+        "author": {
+          "@type": "Person",
+          "name": "Daffa",
+          "url": "{{ site.url }}
+        },
+        "headline": "{{ page.title }}",
+        "image": {
+          "@type": "ImageObject",
+          "url": "{{ page.image }}"
+        },
+        "datePublished": "{{ page.date | date: "%B %e, %Y" }}",
+        "publisher": {
+          "@type": "Organization",
+          "name": "DaffaDev",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "{{ site.avatar }}"
+          }
+        },
+        "keywords": "{{ page.title }}",
+        "dateModified": "{{ page.date | date: "%B %e, %Y" }}",
+        "mainEntityOfPage": "{{ site.url }}{{ page.url }}",
+        "description": "{{ page.excerpt }}"
+      }
+      </script>
+      {% endif %}
+    
+<!-- End tracking codes here, including ShareThis/Analytics -->
+</head>
