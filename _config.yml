@@ -1,0 +1,62 @@
+
+name: DaffaDev
+
+description: Blog from Nowhere
+
+avatar: https://3.bp.blogspot.com/-Wbii_oHARYU/Xp0tLXsAdnI/AAAAAAAADJo/K8768leZ24Ypo6ZzbXj43a3T762pJE0WgCLcBGAsYHQ/s1600/dafadev-icon.png
+
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github: 
+  instagram:
+  linkedin:
+  pinterest:
+  rss: 
+  twitter: 
+  stackoverflow: 
+  youtube: 
+  googleplus: 
+
+disqus:
+
+google_analytics: UA-102169339-1
+
+url:
+
+baseurl: ""
+
+permalink: /:title
+
+version: v1.2.0
+
+kramdown:
+
+  input: GFM
+
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+
+    css_class: 'highlight'
+
+
+sass:
+  style: :expanded 
+
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+paginate: 5
+paginate_path: '/page-:num/'
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+
+			<section class="featured-posts">
+				<div class="section-title">
+					<h2><span>All Stories</span></h2>
+				</div>
+			<div class="row listfeaturedtag">
+				<!-- begin post -->
+			<div class="col-sm-6">
+    {% include iklan-post.html %}
+            </div>
+  {% for post in paginator.posts %}
+				<div class="col-sm-6">
+					<div class="card">
+						<div class="row">
+							<div class="col-md-5 wrapthumbnail">
+								<a href="{{ site.baseurl }}{{ post.url }}">
+								<div class="thumbnail" style="background-image:url({{ post.image }});">
+								</div>
+								</a>
+							</div>
+							<div class="col-md-7">
+								<div class="card-block">
+									<h2 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+									<h4 class="card-text">{{ post.excerpt }}</h4>
+									<div class="metafooter">
+                                        <div class="wrapfooter">
+											<span class="meta-footer-thumb">
+											<img class="author-thumb" src="{{ site.avatar }}" alt="{{ site.name }}">
+											</span>
+											<span class="author-meta">
+											<span class="post-name"><a target="_blank" href="#">{{ post.author }}</a></span><br/>
+											<span class="post-date">{{ post.date | date: "%B %e, %Y" }}</span>
+											</span>
+											<span class="post-read-more"><a href="{{ site.baseurl }}{{ post.url }}" title="Read Story"><i class="fa fa-link"></i></a></span>
+											<div class="clearfix">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+  {% endfor %}
+				<!-- end post -->
+			</div>
+			</section>
